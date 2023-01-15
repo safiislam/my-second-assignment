@@ -6,6 +6,7 @@
     --bg:rgba(255, 144, 14, 0.1);
 }
 
+
 *{
     margin: 0;
     padding: 0;
@@ -341,6 +342,9 @@ footer >div {
     /* font-size: 1vw; */
     font-size: 15px;
 }
+body{
+    width: 100%;
+}
 
 
 
@@ -410,7 +414,11 @@ nav > ul{
         margin-left: 10px;
     }
     .experience-logo{
-        left: 40%;
+        left: 25%;
+    }
+    .experience-text >div{
+        max-width: 400px;
+        margin-left: 25px;
     }
     /* *************************achivement   */
     .achivement-container{
